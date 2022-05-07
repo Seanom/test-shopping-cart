@@ -1,0 +1,15 @@
+.product__title {
+	display: -webkit-box;
+	line-clamp: 2;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	border-bottom: 1px solid var(--border-color);
+}
+
+.product__quantity {
+	border: 1px solid var(--site-blue);
+	border-radius: 6px;
+}

@@ -1,0 +1,8 @@
+.alert {
+	border: var(--warning) 2px solid;
+	color: var(--warning);
+}
+
+.alert__message {
+	color: currentColor;
+}

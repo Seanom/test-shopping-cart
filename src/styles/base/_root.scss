@@ -1,0 +1,36 @@
+@use 'variables';
+
+:root {
+	font-family: 'Libre Franklin', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--black: #{variables.$black};
+	--white: #{variables.$white};
+	--dark: #{variables.$dark};
+	--light: #{variables.$light};
+	--site-blue: #{variables.$blue};
+	--site-dark-blue: #{darken(variables.$blue, 10%)};
+	--site-gray: #{variables.$dark-grey};
+	--info: #{variables.$info};
+	--warning: #{variables.$warning};
+	--success: #{variables.$success};
+	--input-background: var(--white);
+	--site-dark: var(--dark);
+	--site-light: var(--light);
+	--border-color: var(--light);
+	--site-header-background: var(--white);
+	--site-header-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+	--site-background: var(--white);
+	--site-background-opacity: rgba(0, 0, 0, 0.8);
+
+	--site-color: var(--dark);
+	--site-color-inverted: var(--light);
+
+	--navigation-hover-background: #{variables.$light-grey};
+	--navigation-toggle: #{variables.$black};
+	--button-background: var(--site-blue);
+	--button-background-hover: var(--site-dark-blue);
+	--quantity-button: var(--site-blue);
+	--quantity-button-hover: var(--site-light);
+
+	--link-color: var(--site-blue);
+}

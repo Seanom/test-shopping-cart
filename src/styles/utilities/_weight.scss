@@ -1,0 +1,46 @@
+//Font weights
+.fw-semi {
+	&,
+	.fl-heading,
+	a.fl-button {
+		font-weight: 600;
+	}
+	.fl-heading-text {
+		font-weight: inherit;
+	}
+}
+
+.fw-medium,
+.fw-500 {
+	&,
+	.fl-heading,
+	a.fl-button {
+		font-weight: 500;
+	}
+	.fl-heading-text {
+		font-weight: inherit;
+	}
+}
+
+.fw-normal {
+	&,
+	.fl-heading,
+	a.fl-button {
+		font-weight: 400;
+	}
+	.fl-heading-text {
+		font-weight: inherit;
+	}
+}
+
+.fw-light {
+	&,
+	.fl-heading,
+	a.fl-button {
+		font-weight: 300;
+	}
+
+	.fl-heading-text {
+		font-weight: inherit;
+	}
+}

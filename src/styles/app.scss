@@ -1,0 +1,19 @@
+// Styles start here
+
+// Base styles overrides
+@use 'base/root';
+@use 'base/generic';
+
+// Site specific component styling
+
+// Moved the styles into the Svelte components
+//@use 'components/basket';
+//@use 'components/product';
+//@use 'components/quantity';
+//@use 'components/alert';
+
+// Utility helper classes
+@use 'utilities/text';
+//@use 'utilities/weight';
+
+// Styles end here
