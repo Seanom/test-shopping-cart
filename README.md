@@ -1,19 +1,20 @@
 # Svelte shopping basket
 
-A fun little project, creating a shopping basket.
+A fun little exercise, creating a shopping basket.
 It uses SvelteJs and data stores
 
 # Dependancies
 
 - node ^14.18.0
 - Svelte
+- SvelteKit
 - Sass
 - PostCSS
 - Prettier
 - ESlint
 - Playwright
 
-## Install dependancies
+## Install dependencies
 
 ```bash
 npm i
@@ -79,21 +80,21 @@ npm start
   - Browser Stack for testing in iOS and Android browsers
 - Time Spent (6 evenings and a Sunday @4-6hrs )
 
-  | Task        | Time (31) |
+  | Task        | Time (31h)|
   | ----------- | --------- |
-  | Styling     | ~6        |
-  | JavaScript  | ~15       |
-  | Refactoring | ~5        |
-  | Research    | ~5        |
+  | Styling     | ~6h       |
+  | JavaScript  | ~15h      |
+  | Refactoring | ~5h       |
+  | Research    | ~5h       |
 
-- What could be improved with the test
+- What could be improved with the exercise
   - Updated tools, grunt relies on node-sass which has now been deprecated, @use not being supported was a hindrance.
   - Design files uploaded to Zeplin of Figma for those that can no access sketch files
   - Contrast of the blue on white appears to be a little low and could be improved
 
 ## What did you think of this test/exercise?
 
-It's an enjoyable task, there are a few gotchas hidden, that would raise questions regarding functionality.
+It's an enjoyable exercise, there are a few gotchas hidden, that would raise questions regarding functionality.
 Assumptions made worked around those.
 
 ### What did you like?
