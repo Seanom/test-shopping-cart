@@ -122,7 +122,7 @@
 		</div>
 		<div class="🛒__actions">
 			{#if $basket.basketContainsOOSItem}
-				<p class="product__message">Please remove the out of stock to enable the button</p>
+				<p class="product__message">Please remove the out of stock item to enable the Buy Now button</p>
 			{/if}
 			<Button
 				label="Buy now"
